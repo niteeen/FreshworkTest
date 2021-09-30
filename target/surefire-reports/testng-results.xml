@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="4" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-30T20:08:39 IST" name="Surefire suite" finished-at="2021-09-30T20:08:39 IST" duration-ms="187">
+    <groups>
+    </groups>
+    <test started-at="2021-09-30T20:08:39 IST" name="Surefire test" finished-at="2021-09-30T20:08:39 IST" duration-ms="187">
+      <class name="Freshworks.Freshworks.Test01">
+        <test-method signature="NitinTest()[pri:0, instance:Freshworks.Freshworks.Test01@34e9fd99]" started-at="2021-09-30T20:08:39 IST" name="NitinTest" finished-at="2021-09-30T20:08:39 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NitinTest -->
+      </class> <!-- Freshworks.Freshworks.Test01 -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

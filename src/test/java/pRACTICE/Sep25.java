@@ -5,43 +5,26 @@ public class Sep25 {
 	public static void main(String[] args) {
 
 		int[] a1 = { 3, 5, 1, 444, 445, 2 };
-		int secondhighest=0;
-		
-		int gg=r1(a1);
-		
+		int secondhighest = 0;
+
+		int gg = r1(a1);
+
 		System.out.println(gg);
-		
-		
+
 		for (int i = 0; i < a1.length; i++) {
 
-			if (secondhighest < a1[i] &&a1[i]!=gg) {
+			if (secondhighest < a1[i] && a1[i] != gg) {
 
 				secondhighest = a1[i];
 			}
 			;
 
-			
-			
-			
-			
-			
-		};
-		
-		
-		
-		System.out.println("2nd high: "+secondhighest);
-		
-		
-		
+		}
+		;
+
+		System.out.println("2nd high: " + secondhighest);
 
 	}
-	
-	
-	
-	
-	
-	
-	
 
 	public static int r1(int[] aa) {
 

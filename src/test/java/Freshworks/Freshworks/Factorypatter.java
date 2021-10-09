@@ -9,31 +9,27 @@ import org.testng.asserts.SoftAssert;
 import org.testng.Assert;
 
 public class Factorypatter {
-	
+
 	WebDriver driver;
+
 	public Factorypatter(WebDriver driver) {
-		
-		this.driver=driver;
+
+		this.driver = driver;
 		PageFactory.initElements(driver, this);
-		
-		
+
 	};
-	
-	
-	@FindBy(id="ff")
+
+	@FindBy(id = "ff")
 	WebElement element;
-	
-	
-	
+
 	public WebElement chkp() {
-		
-		
-		SoftAssert ff= new SoftAssert();
+
+		SoftAssert ff = new SoftAssert();
 //		ff.assertEquals(actual, expected);
-	ff.assertAll();
-		
+		ff.assertAll();
+
 		return element;
-		
+
 	};
 
 }

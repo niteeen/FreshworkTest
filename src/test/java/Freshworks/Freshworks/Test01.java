@@ -10,33 +10,31 @@ public class Test01 extends sep25_02 {
 	@Parameters("Browser")
 	@Test
 	public void tst(String Browser) {
-		
-		
+
 		System.out.println(Browser);
-		
-		
-		
+
 	};
-	
-	@Test(dataProvider="myname")
+
+	@Test(dataProvider = "myname")
 	public static void FreshTest(String fname, String lname) {
-		
-		System.out.println(fname+" "+lname);
-		
-		
-		
-		
+
+		System.out.println(fname + " " + lname);
+
 	};
-	
+
 	@Test
 	public void NitinTest() {
-		
-		
+
 		System.out.println("HEy This is Nitin Testing");
-		
-		
-		
+
 	};
-	
-	
+
+	@Test
+	public void Checkingmavencommand() {
+
+		System.out.println(System.getProperty("Nitinbrowser"));
+		System.out.println(System.getProperty("Nikhilbrowser"));
+
+	};
+
 }

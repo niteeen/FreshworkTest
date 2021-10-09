@@ -1,17 +1,174 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="3" total="4" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-09-30T20:08:39 IST" name="Surefire suite" finished-at="2021-09-30T20:08:39 IST" duration-ms="187">
+  <suite started-at="2021-10-08T20:11:57 IST" name="Suite" finished-at="2021-10-08T20:11:57 IST" duration-ms="422">
     <groups>
     </groups>
-    <test started-at="2021-09-30T20:08:39 IST" name="Surefire test" finished-at="2021-09-30T20:08:39 IST" duration-ms="187">
+    <test started-at="2021-10-08T20:11:57 IST" name="Test11" finished-at="2021-10-08T20:11:57 IST" duration-ms="188">
       <class name="Freshworks.Freshworks.Test01">
-        <test-method signature="NitinTest()[pri:0, instance:Freshworks.Freshworks.Test01@34e9fd99]" started-at="2021-09-30T20:08:39 IST" name="NitinTest" finished-at="2021-09-30T20:08:39 IST" duration-ms="16" status="PASS">
+        <test-method signature="Checkingmavencommand()[pri:0, instance:Freshworks.Freshworks.Test01@346d61be]" started-at="2021-10-08T20:11:57 IST" name="Checkingmavencommand" finished-at="2021-10-08T20:11:57 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Checkingmavencommand -->
+        <test-method signature="FreshTest(java.lang.String, java.lang.String)[pri:0, instance:Freshworks.Freshworks.Test01@346d61be]" started-at="2021-10-08T20:11:57 IST" name="FreshTest" data-provider="myname" finished-at="2021-10-08T20:11:57 IST" duration-ms="16" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nitin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Shrivastava]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FreshTest -->
+        <test-method signature="ff(java.lang.String, java.lang.String)[pri:0, instance:Freshworks.Freshworks.Test01@346d61be]" started-at="2021-10-08T20:11:57 IST" name="ff" data-provider="myname" finished-at="2021-10-08T20:11:57 IST" duration-ms="15" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nitin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Shrivastava]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ff -->
+        <test-method signature="NitinTest()[pri:0, instance:Freshworks.Freshworks.Test01@346d61be]" started-at="2021-10-08T20:11:57 IST" name="NitinTest" finished-at="2021-10-08T20:11:57 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NitinTest -->
+        <test-method signature="tst(java.lang.String)[pri:0, instance:Freshworks.Freshworks.Test01@346d61be]" started-at="2021-10-08T20:11:57 IST" name="tst" finished-at="2021-10-08T20:11:57 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tst -->
+      </class> <!-- Freshworks.Freshworks.Test01 -->
+    </test> <!-- Test11 -->
+    <test started-at="2021-10-08T20:11:57 IST" name="Test22" finished-at="2021-10-08T20:11:57 IST" duration-ms="16">
+      <class name="Freshworks.Freshworks.Test01">
+        <test-method signature="Checkingmavencommand()[pri:0, instance:Freshworks.Freshworks.Test01@247d8ae]" started-at="2021-10-08T20:11:57 IST" name="Checkingmavencommand" finished-at="2021-10-08T20:11:57 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Checkingmavencommand -->
+        <test-method signature="FreshTest(java.lang.String, java.lang.String)[pri:0, instance:Freshworks.Freshworks.Test01@247d8ae]" started-at="2021-10-08T20:11:57 IST" name="FreshTest" data-provider="myname" finished-at="2021-10-08T20:11:57 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nitin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Shrivastava]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FreshTest -->
+        <test-method signature="NitinTest()[pri:0, instance:Freshworks.Freshworks.Test01@247d8ae]" started-at="2021-10-08T20:11:57 IST" name="NitinTest" finished-at="2021-10-08T20:11:57 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NitinTest -->
+        <test-method signature="ff(java.lang.String, java.lang.String)[pri:0, instance:Freshworks.Freshworks.Test01@247d8ae]" started-at="2021-10-08T20:11:57 IST" name="ff" data-provider="myname" finished-at="2021-10-08T20:11:57 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nitin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Shrivastava]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ff -->
+        <test-method signature="tst(java.lang.String)[pri:0, instance:Freshworks.Freshworks.Test01@247d8ae]" started-at="2021-10-08T20:11:57 IST" name="tst" finished-at="2021-10-08T20:11:57 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tst -->
+      </class> <!-- Freshworks.Freshworks.Test01 -->
+    </test> <!-- Test22 -->
+    <test started-at="2021-10-08T20:11:57 IST" name="Test33" finished-at="2021-10-08T20:11:57 IST" duration-ms="15">
+      <class name="Freshworks.Freshworks.Test01">
+        <test-method signature="FreshTest(java.lang.String, java.lang.String)[pri:0, instance:Freshworks.Freshworks.Test01@6d3a388c]" started-at="2021-10-08T20:11:57 IST" name="FreshTest" data-provider="myname" finished-at="2021-10-08T20:11:57 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nitin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Shrivastava]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FreshTest -->
+        <test-method signature="Checkingmavencommand()[pri:0, instance:Freshworks.Freshworks.Test01@6d3a388c]" started-at="2021-10-08T20:11:57 IST" name="Checkingmavencommand" finished-at="2021-10-08T20:11:57 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Checkingmavencommand -->
+        <test-method signature="tst(java.lang.String)[pri:0, instance:Freshworks.Freshworks.Test01@6d3a388c]" started-at="2021-10-08T20:11:57 IST" name="tst" finished-at="2021-10-08T20:11:57 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Internet Explorer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tst -->
+        <test-method signature="ff(java.lang.String, java.lang.String)[pri:0, instance:Freshworks.Freshworks.Test01@6d3a388c]" started-at="2021-10-08T20:11:57 IST" name="ff" data-provider="myname" finished-at="2021-10-08T20:11:57 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nitin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Shrivastava]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ff -->
+        <test-method signature="NitinTest()[pri:0, instance:Freshworks.Freshworks.Test01@6d3a388c]" started-at="2021-10-08T20:11:57 IST" name="NitinTest" finished-at="2021-10-08T20:11:57 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- NitinTest -->
       </class> <!-- Freshworks.Freshworks.Test01 -->
-    </test> <!-- Surefire test -->
-  </suite> <!-- Surefire suite -->
+    </test> <!-- Test33 -->
+  </suite> <!-- Suite -->
 </testng-results>

@@ -23,7 +23,8 @@ System.out.println(a);
 	if(Arrays.equals(a1, a2)) {
 		
 		
-		System.out.println("Hey This is matched");
+		System.out.println("Hey This is matched ");
+		System.out.println("Making Some Chnages ");
 		
 	};
 		

@@ -11,7 +11,8 @@ public class Test02 {
 	
 	
 	
-	@Test
+	@Test(groups= {"Justtest"})
+			
 	public static void runit() throws IOException {
 		
 		dataDriven02 ff= new dataDriven02();

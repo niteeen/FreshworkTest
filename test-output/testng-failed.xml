@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Freshworks.Freshworks.Test01">
+      <class name="Apache_POI.dt04">
         <methods>
-          <include name="tst"/>
+          <include name="dpt"/>
         </methods>
-      </class> <!-- Freshworks.Freshworks.Test01 -->
+      </class> <!-- Apache_POI.dt04 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -8,18 +8,17 @@ import java.util.Iterator;
 
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
-import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
 
-public class dataDriven02 {
+public class datadriver03 {
 
-	public static void dd1() throws IOException {
-		// TODO Auto-generated method stub
+	@DataProvider(name = "takedata")
+	public Object[][] datadriver() throws IOException {
 
-//		System.out.println("This is the Folder name: :" + System.getProperty("user.dir"));
-
-//		You can use it by ./ that is root folder
 		File grr = new File(System.getProperty("user.dir") + "\\src\\main\\java\\Apache_POI\\TestNames.xlsx");
 //		File grr= new File(".\\src\\main\\java\\Apache_POI\\TestNames.xlsx");
 
@@ -29,31 +28,46 @@ public class dataDriven02 {
 		int gg = WorkBook.getNumberOfSheets();
 		XSSFSheet Sheet = WorkBook.getSheet("Names");
 		int rowCount = Sheet.getLastRowNum();
+		XSSFRow rnum = Sheet.getRow(0);
+		rnum.getLastCellNum();
 
-		System.out.println(rowCount);
+//		System.out.println(rowCount);
 
 //		System.out.println(Sheet.getRow(1).getCell(1).getStringCellValue());
+
 		int i = 0;
 		int j = 0;
 
+		Object[][] bb = new Object[3][2];
 		Iterator<Row> rows = Sheet.rowIterator();
 
 		while (rows.hasNext()) {
-			j = 0;
+
 			Iterator<Cell> columns = rows.next().cellIterator();
+			j = 0;
 			while (columns.hasNext()) {
 
-				System.out.print(columns.next() + " ");
-				System.out.println(i + "" + j);
+//				System.out.println(columns.next());
+				bb[i][j] = columns.next();
 				j++;
 
 			}
 			;
-			System.out.println("");
+
 			i++;
 
 		}
 		;
 
-	}
+		return bb;
+
+	};
+
+	@Test(dataProvider = "takedata")
+	public static void ruunit(String one, String Two) {
+
+		System.out.println(one + " " + Two);
+
+	};
+
 }

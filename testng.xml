@@ -3,42 +3,52 @@
 <suite name="Suite">
 
 
-  <test thread-count="5" name="Test11">
-  <parameter name="Browser" value="IE" />
-    <classes>
-      <class name="Freshworks.Freshworks.Test01"/>
-      
-    
-    </classes>
-  </test> <!-- Test -->
-  
-  
-   <test thread-count="5" name="Test22">
-   <parameter name="Browser" value="Chrome" />
-    <classes>
-      <class name="Freshworks.Freshworks.Test01"/>
-    
-    </classes>
-  </test> <!-- Test -->
-  
-   <test thread-count="5" name="Test33">
-   <parameter name="Browser" value="Internet Explorer" />
-    <classes>
-      <class name="Freshworks.Freshworks.Test01"/>
-    </classes>
-  </test> <!-- Test -->
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+<groups>
+<run>
+<include name="Justtest">
+</include></run>
+
+</groups>
+
+
+
+
+	<test thread-count="5" name="Test11">
+		<parameter name="Browser" value="IE" />
+		<classes>
+			<class name="Freshworks.Freshworks.Test02" />
+
+
+		</classes>
+	</test> <!-- Test -->
+
+
+	<test thread-count="5" name="Test22">
+		<parameter name="Browser" value="Chrome" />
+		<classes>
+			<class name="Freshworks.Freshworks.Test01" />
+
+		</classes>
+	</test> <!-- Test -->
+
+	<test thread-count="5" name="Test33">
+		<parameter name="Browser" value="Internet Explorer" />
+		<classes>
+			<class name="Freshworks.Freshworks.Test01" />
+		</classes>
+	</test> <!-- Test -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </suite> <!-- Suite -->
